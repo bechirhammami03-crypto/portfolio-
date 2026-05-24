@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Mohamed Bechir Hammami</title>
+  <meta name="description" content="Portfolio personale di Mohamed Bechir Hammami: grafica, identita visiva, video editing e contenuti digitali.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Vai all'inizio">
+      <span class="brand-mark">MBH</span>
+      <span>Mohamed Bechir Hammami</span>
+    </a>
+
+    <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span class="sr-only">Menu</span>
+    </button>
+
+    <nav id="site-nav" class="site-nav">
+      <a href="#progetti">Progetti</a>
+      <a href="#competenze">Competenze</a>
+      <a href="#profilo">Profilo</a>
+      <a href="#contatti">Contatti</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-media" aria-hidden="true">
+        <div class="grid-lines"></div>
+      </div>
+
+      <div class="hero-content">
+        <p class="eyebrow">Graphic designer</p>
+        <h1>Mohamed Bechir Hammami</h1>
+        <p class="hero-copy">
+          Creo grafiche pulite e d'impatto per brand, social e progetti digitali. Mi occupo anche di video editing con Premiere Pro e DaVinci Resolve, trasformando idee semplici in contenuti curati e pronti a farsi notare.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#progetti">Guarda i lavori</a>
+          <a class="button secondary" href="mailto:bechir.hammami03@gmail.com">Scrivimi</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="progetti" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Portfolio</p>
+        <h2>Progetti selezionati</h2>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card featured">
+          <div class="project-visual visual-one">
+            <img src="assets/brand-identity.png" alt="Logo del progetto Brand identity">
+          </div>
+          <div class="project-body">
+            <span class="tag">Brand identity</span>
+            <h3>Visual identity</h3>
+            <p>Logo, palette colori e stile grafico per dare a un progetto un'immagine chiara e riconoscibile.</p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual visual-two">
+            <video controls preload="metadata">
+              <source src="assets/post-video-making.mp4" type="video/mp4">
+              Il tuo browser non supporta la riproduzione video.
+            </video>
+          </div>
+          <div class="project-body">
+            <span class="tag">Social media</span>
+            <h3>Post e video making</h3>
+            <p>Contenuti video e post creati per comunicare in modo dinamico, pulito e immediato.</p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual visual-three">
+            <video controls preload="metadata">
+              <source src="assets/mantova-tra-storia-e-leggenda.mp4" type="video/mp4">
+              Il tuo browser non supporta la riproduzione video.
+            </video>
+          </div>
+          <div class="project-body">
+            <span class="tag">Video editing</span>
+            <h3>Montaggio video</h3>
+            <p>Mantova tra storia e leggenda, montaggio video realizzato con Premiere Pro e DaVinci Resolve.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="competenze" class="section split">
+      <div class="section-heading">
+        <p class="eyebrow">Competenze</p>
+        <h2>Dall'idea al visual finale</h2>
+      </div>
+
+      <div class="skills-list">
+        <div class="skill-item">
+          <span>01</span>
+          <div>
+            <h3>Identita visiva</h3>
+            <p>Logo, colori, font e direzione creativa per rendere ogni progetto riconoscibile.</p>
+          </div>
+        </div>
+        <div class="skill-item">
+          <span>02</span>
+          <div>
+            <h3>Contenuti social</h3>
+            <p>Grafiche per Instagram, TikTok, copertine, stories e campagne coordinate.</p>
+          </div>
+        </div>
+        <div class="skill-item">
+          <span>03</span>
+          <div>
+            <h3>Impaginazione</h3>
+            <p>Poster, flyer, cover, presentazioni e materiali digitali pronti per la pubblicazione.</p>
+          </div>
+        </div>
+        <div class="skill-item">
+          <span>04</span>
+          <div>
+            <h3>Editing video</h3>
+            <p>Montaggio, ritmo, tagli, colore e finalizzazione video con Adobe Premiere Pro e DaVinci Resolve.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="profilo" class="section profile-section">
+      <div class="profile-card">
+        <div class="portrait" aria-hidden="true">MBH</div>
+        <div>
+          <p class="eyebrow">Chi sono</p>
+          <h2>Grafica chiara, diretta e con carattere.</h2>
+          <p>
+            Lavoro su identita visive, contenuti social, layout, materiali digitali e video editing. Il mio obiettivo e creare contenuti semplici da capire, forti da ricordare e coerenti con la personalita di ogni progetto.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contatti" class="section contact-section">
+      <div>
+        <p class="eyebrow">Contatti</p>
+        <h2>Hai un progetto in mente?</h2>
+        <p>Mandami qualche dettaglio: ti rispondo con un'idea concreta su tempi, direzione e prossimi passi.</p>
+      </div>
+      <a class="button primary" href="mailto:bechir.hammami03@gmail.com">bechir.hammami03@gmail.com</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>&copy; 2026 Mohamed Bechir Hammami</span>
+    <div>
+      <a href="https://www.instagram.com/bescir_03" target="_blank" rel="noreferrer">Instagram @bescir_03</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
